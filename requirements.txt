@@ -6,4 +6,4 @@ Jinja2==3.0.1
 MarkupSafe==2.0.1
 numpy==1.21.2
 Werkzeug==2.0.1
-https://github.com/google-coral/pycoral/releases/download/release-frogfish/tflite_runtime-2.5.0-cp35-cp35m-linux_aarch64.whl#sha256=358ba7558711ef451192fe5d34e369df686012885a08c99d63c3ada91aeb0f18
+https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_x86_64.whl#
