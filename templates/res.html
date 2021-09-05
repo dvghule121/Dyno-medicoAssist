@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease predictor</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/form.css') }}">
+    <!-- Bootstrap CSS -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+
+
+</head>
+
+
+<script>
+
+    function print_data(){
+        console.log("hi")
+        document.getElementById("pd").style.cssText = 'visibility: visible ;'
+        input_text = document.getElementById('inp')
+        const out_text = document.getElementById('cardtext')
+        text = input_text.value
+        out_text.innerHTML = text
+
+
+}
+
+
+
+
+
+</script>
+
+<body>
+
+    <header>
+        <div class="navbar_main">
+            <nav>
+                <ul>
+
+                    <li>@)'|'(@</li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="input">
+            <form  method="post">
+            <input type="text" name="inp" id="inp" placeholder="Enter symptoms here...">
+            <input type="submit" name="btn" id="inpbtn" value="Submit" >
+               </form>
+        </div>
+
+        <div class="predicted_Diseases" id='pd'style="visibility:visible">
+
+
+            <div class="card" style="width: 15vw;">
+                <div class="card-body">
+                  <h3 class="card-title"><b> Disease :- </b>{{dises}}</h3>
+                  <br>
+                    <p class="card-text" id="symptext"><b> Symptoms :- </b>{{symptoms}}</p>
+                    <br>
+                  <p class="card-text" id="cardtext"><b> Treatment :- </b>{{treatment}}</p>
+
+                </div>
+              </div>
+
+
+
+
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="text-center">
+            © 2021 Copyright:
+
+          </div>
+    </footer>
+
+</body>
+
+
+</html>
