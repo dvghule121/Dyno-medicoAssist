@@ -10,11 +10,12 @@ def predict_disease():
     treatment = "treatment"
     symptoms = "symptoms"
     if request.method == "POST":
-        symptoms = request.form["inp"]
-        user_input = symptoms
-        dm = ds()
-        disease = dm.predict_tag(user_input)
-        treatment = dm.treat(disease)
+        symptoms = request.form["inp"].lower()
+        if len(symptoms) != 0:
+            user_input = symptoms
+            dm = ds()
+            disease = dm.predict_tag(user_input)
+            treatment = dm.treat(disease)
 
     try:
         return render_template("res.html", dises=disease, treatment=treatment, symptoms=symptoms)

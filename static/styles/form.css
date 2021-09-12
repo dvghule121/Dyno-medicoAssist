@@ -21,10 +21,11 @@ padding: 0;}
 
 
 .input form{
-    margin: 5vh 3vw 2vh 5vw;
+    margin: 5vh 15vw;
     padding: 3vh 1vh;
     display: flex;
     justify-content: center;
+    width: 60vw;
 }
 #inp {
     padding: 1% 2%;
@@ -38,7 +39,7 @@ padding: 0;}
 
  #inpbtn { 
     padding: 1% 2%;
-    margin-left: 1rem;
+    margin-left: 10px;
     background-color: lightblue;
     border-radius: 3vh;
     
@@ -71,7 +72,8 @@ body{
     font-style: initial;
     border:1px;
     border-radius:5px;
-    
+    margin: 0;
+
     font-size: large;
     width: 60vw;
 }

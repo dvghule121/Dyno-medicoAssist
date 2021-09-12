@@ -1,11 +1,8 @@
 import json
 import numpy
-"https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-win_amd64.whl#sha256=414f4a2e2d141d812507f0055591f50d65e714e0a4501ad1c43b02108419d025"
-
-
-
 import tflite_runtime.interpreter as tflite
-
+# from keras.models import load_model
+# import tensorflow as tf
 
 with open("static/data/symtomps.json", 'r') as f:
     intents = json.load(f)
@@ -214,9 +211,6 @@ class Dataset:
         # convert output(probabilities) to tags
         prediction_list = list(tflite_model_predictions[0])
         return tags[prediction_list.index(max(prediction_list))]
-    
-
-
 
 
 if __name__ == '__main__':
