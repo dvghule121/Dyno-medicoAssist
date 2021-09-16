@@ -6,13 +6,13 @@
         "sneezing runny nose red itchy watery eyes wheezing coughing rash asthema eczema"
       ],
       "treatment": [
-        "antihistamines,decongestants,lotion and creams, steroid (apray, drop, cream inhalers for saftey please get professional advice from your Doctor"
+        "antihistamines decongestants lotion and creams steroid apray drop cream inhalers for saftey please get professional advice from your Doctor"
       ]
     },
     {
-      "tag": "alcohol-related liver disease",
+      "tag": "alcohol related liver disease",
       "symptoms": [
-        "feeling sick weight loss loss of appetite yellowing of the eyes and skin (jaundice) swelling in the ankles and tummy confusion or drowsiness vomiting blood or passing blood in your stools"
+        "feeling sick weight loss loss of appetite yellowing of the eyes and skin jaundice swelling in the ankles and tummy confusion or drowsiness vomiting blood or passing blood in your stools"
       ],
       "treatment": [
         "There's currently no specific medical treatment for ARLD. The main treatment is to stop drinking, preferably for the rest of your life. This reduces the risk of further damage to your liver and gives it the best chance of recovering. A liver transplant may be required in severe cases where the liver has stopped functioning and doesn't improve when you stop drinking alcohol."
@@ -30,7 +30,7 @@
     {
       "tag": "arthritis",
       "symptoms": [
-        "joint pain, tenderness and stiffness inflammation in and around the joints restricted movement of the joints warm, red skin over the affected joint weakness and muscle wasting"
+        "joint pain tenderness and stiffness inflammation in and around the joints restricted movement of the joints warm red skin over the affected joint weakness and muscle wasting"
       ],
       "treatment": [
         "There's no cure for arthritis, but there are many treatments that can help slow down the condition. painkillers arthroplasty (joint replacement) arthodesis (joint fusion)"
@@ -42,13 +42,13 @@
         "depression feeling very low and feeling very high and overactive simple mood swings"
       ],
       "treatment": [
-        "medication to treat the main symptoms of depression and mania when they occur psychological treatment – such as talking therapy, which can help you deal with depression, and provides advice about how to improve your relationships"
+        "medication to treat the main symptoms of depression and mania when they occur psychological treatment such as talking therapy, which can help you deal with depression, and provides advice about how to improve your relationships"
       ]
     },
     {
       "tag": "bone_cancer",
       "symptoms": [
-        "persistent bone pain that gets worse over time and continues into the night swelling and redness inflammation over a bone, make movement joint difficult noticeable lump over a bone weak bone that breaks fractures more easily than normal"
+        "persistent bone pain that gets worse over time and continues into the night swelling and redness inflammation over a bone make movement joint difficult noticeable lump over a bone weak bone that breaks fractures more easily than normal"
       ],
       "treatment": [
         "surgery to remove the section of cancerous bone – it's often possible to reconstruct or replace the bone that's been removed, but amputation is sometimes necessary chemotherapy – treatment with powerful cancer-killing medication radiotherapy – where radiation is used to destroy cancerous cells"
@@ -84,7 +84,7 @@
     {
       "tag": "constipation",
       "symptoms": [
-        "stomach ache and cramps feeling bloated feeling sick loss of appetite"
+        "stomach ache and cramps feeling bloated feeling sick loss of appetite gas"
       ],
       "treatment": [
         "Diet and lifestyle changes are usually recommended as the first treatment for constipation.This includes gradually increasing your daily intake of fibre, making sure you drink plenty of fluids, and trying to get more exercise.If these aren't effective, your pharmacist may recommend an oral laxative medication that can help you empty your bowels."
@@ -102,25 +102,16 @@
     {
       "tag": "flu",
       "symptoms": [
-        "a high temperature tiredness and weakness a headache general aches and pains a dry, chesty cough"
+        "a high temperature tiredness and weakness a headache general aches and pains a dry chesty cough"
       ],
       "treatment": [
         "Antiviral medication, Antibiotics If you feel unwell and have a fever, you can take paracetamol or anti-inflammatory medicines such as ibuprofen  lower your temperature and relieve aches. Children under 16 shouldn't be given aspirin"
       ]
     },
     {
-      "tag": "common_headache",
-      "symptoms": [
-        "stress headache"
-      ],
-      "treatment": [
-        "take painkillers such as paracetamol or ibuprofen drink plenty of fluids relax"
-      ]
-    },
-    {
       "tag": "heart_failure",
       "symptoms": [
-        "Breathlessness Tiredness and lethargy Leg swelling Loss of appetite cough and a frothy spit "
+        "Breathlessness Tiredness and lethargy Leg swelling Loss of appetite cough and a frothy spit"
       ],
       "treatment": [
         "cpr can help to save the life, call the ambulance as soon as possible."
@@ -138,7 +129,7 @@
     {
       "tag": "liver_cancer",
       "symptoms": [
-        "unexplained weight loss loss of appetite feeling very full after eating, even if the meal was small feeling sick and vomiting pain or swelling in your abdomen jaundice itchy skin feeling very tired and weak"
+        "unexplained weight loss loss of appetite feeling very full after eating even if the meal was small feeling sick and vomiting pain or swelling in your abdomen jaundice itchy skin feeling very tired and weak"
       ],
       "treatment": [
         "Liver cancer is usually diagnosed after a consultation with a GP and a referral to a hospital specialist for further tests, such as scans of your liver.However, regular check-ups for liver cancer (known as surveillance) are often recommended for people known to have a high risk of developing the condition, such as those with cirrhosis."
@@ -156,7 +147,7 @@
     {
       "tag": "kidney cancer",
       "symptoms": [
-        "blood in your urine,a constant pain in your side just below the ribs,a lump or swelling in the kidney area "
+        "blood in your urine a constant pain in your side just below the ribs a lump or swelling in the kidney area "
       ],
       "treatment": [
         "Nephrectomy,Embolisation,Radiotherapy,Cryotherapy,"
@@ -165,7 +156,7 @@
     {
       "tag": "kidney infection",
       "symptoms": [
-        "pain and discomfort in your side, lower back or around your genitals, high temperature (it may reach 39.5C or 103.1F),shivering or chills,feeling very weak or tired,loss of appetite,feeling sick or being sick"
+        "pain and discomfort in your side lower back or around your genitals high temperature it may reach 39.5C or 103.1F shivering or chills feeling very weak or tired loss of appetite feeling sick or being sick"
       ],
       "treatment": [
         "Antibiotics,Painkillers"
@@ -174,7 +165,7 @@
     {
       "tag": "lyme disease",
       "symptoms": [
-        "tiredness (fatigue),muscle pain, joint pain,headaches,a high temperature (fever),chills, neck stiffnes,spain and swelling in the joints,nerve problems – such as numbness or pain in your limbs,memory problems,difficulty concentrating,heart problems"
+        "tiredness fatigue muscle pain joint pain headaches a high temperature fever chills neck stiffnes spain and swelling in the joints nerve problems such as numbness or pain in your limbs memory problems difficulty concentrating heart problems"
       ],
       "treatment": [
         "antibiotics"
@@ -183,25 +174,25 @@
     {
       "tag": "maleria",
       "symptoms": [
-        "a high temperature (fever),headache, sweats, chills, vomiting,muscle pains, diarrhoea, generally feeling unwell"
+        "a high temperature fever headache sweats chills vomiting muscle pains diarrhoea generally feeling unwell"
       ],
       "treatment": [
-        "chloroquine phosphate , artemisinin based cobinatination therapies"
+        "chloroquine phosphate artemisinin based cobinatination therapies"
       ]
     },
     {
       "tag": "month cancer",
       "symptoms": [
-        "persistent pain in the mouth, pain or difficulty when swallowing (dysphagia),changes in your voice, or speech problems,swollen lymph nodes (glands) in your neck,unexplained weight loss,bleeding or numbness in the mouth,a tooth or teeth that becomes loose for no obvious reason,difficulty moving your jaw"
+        "persistent pain in the mouth pain or difficulty when swallowing dysphagia changes in your voice or speech problems swollen lymph nodes glands in your neck unexplained weight loss bleeding or numbness in the mouth a tooth or teeth that becomes loose for no obvious reason difficulty moving your jaw"
       ],
       "treatment": [
-        "Surgery,Photodynamic therapy (PDT),Other forms of surgery,Radiotherapy,Internal radiotherapy,Chemotherapy,Cetuximab"
+        "Surgery Photodynamic therapy (PDT),Other forms of surgery,Radiotherapy,Internal radiotherapy,Chemotherapy,Cetuximab"
       ]
     },
     {
       "tag": "nasal and sinus cancer",
       "symptoms": [
-        "pain or numbness in the face,swollen glands in the neck,partial loss of vision or double vision,a bulging or persistently watering eye,a lump or growth on your face  nose or roof of your mouth ,a persistent blocked nose which usually only affects one side,nosebleeds,mucus draining from the nose which may be blood-stained, a decreased sense of smell"
+        "pain or numbness in the face swollen glands in the neck partial loss of vision or double vision a bulging or persistently watering eye a lump or growth on your face  nose or roof of your mouth a persistent blocked nose which usually only affects one side nosebleeds mucus draining from the nose which may be blood-stained a decreased sense of smell"
       ],
       "treatment": [
         "surgery to remove a tumour,radiotherapy,chemotherapy "
@@ -219,7 +210,7 @@
     {
       "tag": "obesity",
       "symptoms": [
-        "difficulty in sleeping , back or joint pain, excessive sweating , intolerance to heat , infections in skin folds , fatigue, depression"
+        "difficulty in sleeping back or joint pain excessive sweating intolerance to heat infections in skin folds fatigue depression"
       ],
       "treatment": [
         "exercise on prescription,diet,medication"
@@ -228,7 +219,7 @@
     {
       "tag": "ovarian cancer",
       "symptoms": [
-        "increased abdominal size and persistent bloating (not bloating that comes and goes),persistent pelvic and abdominal pain,difficulty eating and feeling full quickly or feeling nauseou"
+        "increased abdominal size and persistent bloating not bloating that comes and goes persistent pelvic and abdominal pain difficulty eating and feeling full quickly or feeling nauseou"
       ],
       "treatment": [
         "surgery,chemotherapy,radiotherapy,psychological help"
@@ -237,7 +228,7 @@
     {
       "tag": "oesophageal cancer",
       "symptoms": [
-        "persistent indigestion or heartburn, bringing up food soon after eating,loss of appetite and weight loss,persistent vomiting,pain or discomfort in your upper tummy chest or back, a persistent cough,hoarseness, tiredness shortness of breath and pale skin,vomiting blood or coughing up blood – although this is uncommon"
+        "persistent indigestion or heartburn bringing up food soon after eating loss of appetite and weight loss,persistent vomiting pain or discomfort in your upper tummy chest or back a persistent cough hoarseness tiredness shortness of breath and pale skin vomiting blood or coughing up blood although this is uncommon"
       ],
       "treatment": [
         "surgery,chemotherapy,radiotherapy"
@@ -246,7 +237,7 @@
     {
       "tag": "oral thrush in adults",
       "symptoms": [
-        "white patches (plaques) in the mouth that can often be wiped off, leaving behind red areas that may bleed slightly,loss of taste or an unpleasant taste in the mouth,redness inside the mouth and throat,cracks at the corners of the mouth,a painful burning sensation in the mouth"
+        "white patches plaques in the mouth that can often be wiped off leaving behind red areas that may bleed slightly loss of taste or an unpleasant taste in the mouth redness inside the mouth and throat cracks at the corners of the mouth a painful burning sensation in the mouth"
       ],
       "treatment": [
         " antifungal medicines"
@@ -255,7 +246,7 @@
     {
       "tag": "pancreatic cancer",
       "symptoms": [
-        "the exocrine pancreas produces digestive enzymes which break down food so they can be absorbed by your body,the endocrine pancreas produces hormones – including insulin which keeps your blood sugar levels stable,pain in the stomach or back,jaundice,weight loss"
+        "the exocrine pancreas produces digestive enzymes which break down food so they can be absorbed by your body the endocrine pancreas produces hormones including insulin which keeps your blood sugar levels stable pain in the stomach or back jaundice weight loss"
       ],
       "treatment": [
         "surgery,chemotherapy,radiotherapy"
@@ -264,7 +255,7 @@
     {
       "tag": "panic disorder",
       "symptoms": [
-        "a sensation that your heart is beating irregularly (palpitations), sweating,trembling,hot flushes,chills,shortness of breath , a choking sensation,chest pain, nausea,dizziness, feeling faint,numbness or pins and needles,dry mouth,a need to go to the toilet, ringing in your ears ,a feeling of dread or a fear of dying, a churning stomach,a tingling sensation in your fingers,shivering,shaking"
+        "a sensation that your heart is beating irregularly palpitations sweating trembling hot flushes chills shortness of breath a choking sensation chest pain nausea dizziness feeling faint numbness or pins and needles dry mouth a need to go to the toilet ringing in your ears a feeling of dread or a fear of dying a churning stomach a tingling sensation in your fingers shivering shaking"
       ],
       "treatment": [
         "cognitive behavioural therapy,support groups,antidepressants,selective serotonin reuptake inhibitors (SSRIs)"
@@ -273,16 +264,16 @@
     {
       "tag": "personality disorder",
       "symptoms": [
-        "lack of concern regret or remorse about other people's distressirresponsibility and disregard for normal social behaviour, difficulty in sustaining long-term relationships, little ability to tolerate frustration and to control their anger,lack of guilt or not learning from their mistakes,blaming others for problems in their lives"
+        "lack of concern regret or remorse about other people's distress irresponsibility and disregard for normal social behaviour difficulty in sustaining long-term relationships little ability to tolerate frustration and to control their anger lack of guilt or not learning from their mistakes blaming others for problems in their lives"
       ],
       "treatment": [
-        "psychological therapie,psychodynamic (reflective) psychotherapy,cognitive behavioural therapy,interpersonal therapy,therapeutic communities,medication"
+        "psychological therapie,psychodynamic reflective psychotherapy cognitive behavioural therapy interpersonal therapy therapeutic communities medication"
       ]
     },
     {
       "tag": "prostate cancer",
       "symptoms": [
-        "needing to urinate more frequently often during the night,needing to rush to the toilet,difficulty in starting to pee (hesitancy),straining or taking a long time while urinating,weak flow,feeling that your bladder has not emptied fully"
+        "needing to urinate more frequently often during the night needing to rush to the toilet difficulty in starting to pee hesitancy,straining or taking a long time while urinating weak flow feeling that your bladder has not emptied fully"
       ],
       "treatment": [
         "supportive care,medical procedure,surgery,medication"
@@ -291,7 +282,7 @@
     {
       "tag": "skin cancer",
       "symptoms": [
-        "getting bigger,changing shape,changing colour,bleeding or becoming crusty,itchy or painful"
+        "getting bigger changing shape changing colour bleeding or becoming crusty itchy or painful"
       ],
       "treatment": [
         "surgery , chemotherapy, radiation"
@@ -300,16 +291,16 @@
     {
       "tag": "sucide",
       "symptoms": [
-        "life history,mental health,lifestyle ,employment ,elationships,genetics and family history"
+        "life history mental health lifestyle employment elationships genetics and family history"
       ],
       "treatment": [
-        "Talking to someone you trust"
+        "Talking to someone you trust, kyun acchi khasi jindagi barbaad karne pe tule ho."
       ]
     },
     {
       "tag": "stomach cancer",
       "symptoms": [
-        "persistent indigestion,trapped wind and frequent burping,heartburn,feeling full very quickly when eating,feeling bloated after eating,feeling sick,pain in your stomach or breastbone,difficulty swallowing (dysphagia),vomiting (the vomit may be streaked with blood) although this is uncommon in the early stages"
+        "persistent indigestion trapped wind and frequent burping heartburn feeling full very quickly when eating feeling bloated after eating feeling sick pain in your stomach or breastbone difficulty swallowing  dysphagia vomiting  the vomit may be streaked with blood although this is uncommon in the early stages"
       ],
       "treatment": [
         "trastuzumab,radiotherapy,chemotherapy,surgery"
@@ -318,7 +309,7 @@
     {
       "tag": "sunburn",
       "symptoms": [
-        "skin damage by uv rays,blistering or swelling of the skin (oedema), chills,a high temperature (fever) of 38C (100.4F) or above, or 37.5C (99.5F) or above in children under five,dizziness headaches and feeling sick (symptoms of heat exhaustion)"
+        "skin damage by uv rays blistering or swelling of the skin oedema chills a high temperature fever of 38C 100.4F or above or 37.5C 99.5F or above in children under five dizziness headaches and feeling sick symptoms of heat exhaustion"
       ],
       "treatment": [
         "suitable clothing,sunscreen"
@@ -327,16 +318,16 @@
     {
       "tag": "tuberculosis",
       "symptoms": [
-        "lack of appetite and weight loss,a high temperature (fever), night sweats,extreme tiredness or fatigue"
+        "lack of appetite and weight loss a high temperature fever night sweats extreme tiredness or fatigue"
       ],
       "treatment": [
-        "two antibiotics (isoniazid and rifampicin) for six months,two additional antibiotics (pyrazinamide and ethambutol) for the first two months"
+        "two antibiotics isoniazid and rifampicin for six months two additional antibiotics pyrazinamide and ethambutol for the first two months"
       ]
     },
     {
       "tag": "tooth decay",
       "symptoms": [
-        "toothache – either continuous pain keeping you awake or occasional sharp pain without an obvious cause, tooth sensitivity – you may feel tenderness or pain when eating or drinking something hot, cold or sweet,grey brown or black spots appearing on your teeth, bad breath,an unpleasant taste in your mouth"
+        "toothache either continuous pain keeping you awake or occasional sharp pain without an obvious cause tooth sensitivity you may feel tenderness or pain when eating or drinking something hot cold or sweet grey brown or black spots appearing on your teeth bad breath an unpleasant taste in your mouth"
       ],
       "treatment": [
         "visit your dentist regularly ,cut down on sugary and starchy food and drinks, particularly between meals or within an hour of going to bed,look after your teeth and gums,avoid smoking or drinking alcohol excessively ,see your dentist or GP if you have a persistently dry mouth"
@@ -345,7 +336,7 @@
     {
       "tag": "tonsillitis",
       "symptoms": [
-        "high temperature (fever) over 38C (100.4F),coughing, headache, earache,feeling sick,feeling tired,swollen painful lymph glands in your neck,loss of voice or changes to your voice"
+        "high temperature fever over 38C 100.4F coughing headache earache feeling sick feeling tired swollen painful lymph glands in your neck loss of voice or changes to your voice"
       ],
       "treatment": [
         "self-help,antibiotics,surgery,post-operative bleeding"
@@ -354,16 +345,16 @@
     {
       "tag": "thyroid cancer",
       "symptoms": [
-        "unexplained hoarseness that doesn't get better after a few weeks,a sore throat or difficulty swallowing that doesn't get better,pain in your neck"
+        "unexplained hoarseness that doesn't get better after a few weeks a sore throat or difficulty swallowing that doesn't get better pain in your neck"
       ],
       "treatment": [
-        "a surgeon, an endocrinologist (a specialist in treating hormonal conditions),an oncologist (a cancer treatment specialist),a pathologist (a specialist in diseased tissue), a radiotherapist or clinical oncologist (a specialist in non-surgical methods of treating cancer such as chemotherapy and radiotherapy),a specialist cancer nurse who will usually be your first point of contact with the rest of the team"
+        "a surgeon an endocrinologist a specialist in treating hormonal conditions an oncologist a cancer treatment specialist a pathologist a specialist in diseased tissue a radiotherapist or clinical oncologist a specialist in non-surgical methods of treating cancer such as chemotherapy and radiotherapy a specialist cancer nurse who will usually be your first point of contact with the rest of the team"
       ]
     },
     {
       "tag": "thirst",
       "symptoms": [
-        "diarrhoea,vomiting,In some cases, thirst may be caused by something as simple as a recent meal or snack. Eating salty or spicy foods can cause you to suddenly feel thirsty."
+        "diarrhoea vomiting In some cases thirst may be caused by something as simple as a recent meal or snack Eating salty or spicy foods can cause you to suddenly feel thirsty"
       ],
       "treatment": [
         "If you feel thirsty all the time and have other symptoms, your GP will probably carry out a blood glucose test to see whether you have diabetes."
@@ -372,7 +363,7 @@
     {
       "tag": "tuberculosis (TB)",
       "symptoms": [
-        "lack of appetite and weight loss, a high temperature (fever),night sweats, extreme tiredness or fatigue "
+        "lack of appetite and weight loss a high temperature fever night sweats extreme tiredness or fatigue "
       ],
       "treatment": [
         "Treatment for tuberculosis (TB) will usually involve a long course of antibiotics lasting several months."
@@ -381,7 +372,7 @@
     {
       "tag": "tooth decay",
       "symptoms": [
-        "grey, brown or black spots appearing on your teeth, bad breath, an unpleasant taste in your mouth "
+        "grey brown or black spots appearing on your teeth bad breath an unpleasant taste in your mouth "
       ],
       "treatment": [
         ""
@@ -390,25 +381,25 @@
     {
       "tag": "thyroid cancer",
       "symptoms": [
-        "swelling at the front of the neck, a sore throat or difficulty swallowing that doesn't get better, pain in your neck"
+        "swelling at the front of the neck a sore throat or difficulty swallowing that doesn't get better pain in your neck"
       ],
       "treatment": [
-        "all NHS hospitals have multidisciplinary teams (MDTs) that treat thyroid cancer."
+        "all NHS hospitals have multidisciplinary teams MDTs that treat thyroid cancer."
       ]
     },
     {
       "tag": "tonsillitis",
       "symptoms": [
-        "sore throat,tonsils will be red and swollen, and your throat may be very painful, making swallowing difficult,high temperature (fever) over 38C (100.4F) coughing, headache,earache,feeling sick "
+        "sore throat tonsils will be red and swollen and your throat may be very painful making swallowing difficult high temperature (fever) over 38C (100.4F) coughing headache earache feeling sick "
       ],
       "treatment": [
-        "Over-the-counter painkillers, such as paracetamol and ibuprofen, can help relieve painful symptoms such as a sore throat."
+        "Over the counter painkillers, such as paracetamol and ibuprofen, can help relieve painful symptoms such as a sore throat."
       ]
     },
     {
-      "tag": "testicular cancer",
+      "tag": "testicular cancer (tatto ka cancer)",
       "symptoms": [
-        "swelling in one of your testicles,size of a pea may be larger,dull ache or sharp pain in your testicles or scrotum, which may come and go, feeling of heaviness in your scrotum"
+        "swelling in one of your testicles size of a pea may be larger dull ache or sharp pain in your testicles or scrotum which may come and go feeling of heaviness in your scrotum"
       ],
       "treatment": [
         "Chemotherapy, radiotherapy and surgery are the 3 main treatments for testicular cancer."
@@ -426,7 +417,7 @@
     {
       "tag": "thrush",
       "symptoms": [
-        "itching, soreness and redness or fissures (like paper cuts) around the vagina or anus, unusual, white discharge from the vagina that may be thick and look like cottage cheese – it sometimes smells yeasty, pain when peeing or having sex"
+        "itching soreness and redness or fissures like paper cuts around the vagina or anus unusual white discharge from the vagina that may be thick and look like cottage cheese it sometimes smells yeasty pain when peeing or having sex"
       ],
       "treatment": [
         "antifungal cream to apply to the genital area, vaginal pessaries (tablets that you put into your vagina), oral pills or a combination."
@@ -435,7 +426,7 @@
     {
       "tag": "tinnitus",
       "symptoms": [
-        "buzzing,humming, grinding, hissing, whistling"
+        "buzzing humming grinding hissing whistling"
       ],
       "treatment": [
         "sound therapy,counselling,cognitive behavioural therapy (CBT),tinnitus retraining therapy (TRT)"
@@ -444,7 +435,7 @@
     {
       "tag": "trichomonas infection",
       "symptoms": [
-        "pain or a burning sensation when peeing,itching and soreness in the genital area,a yellow or green discharge from the vagina or penis, which can sometimes have an unpleasant, ‘fishy’ smell"
+        "pain or a burning sensation when peeing itching and soreness in the genital area a yellow or green discharge from the vagina or penis which can sometimes have an unpleasant fishy smell"
       ],
       "treatment": [
         "Antibiotics will get rid of the infection."
@@ -453,7 +444,7 @@
     {
       "tag": "ulcerative colitis",
       "symptoms": [
-        "recurring diarrhoea, which may contain blood, mucus or pus,abdominal pain,needing to empty your bowels frequently"
+        "recurring diarrhoea which may contain blood mucus or pus abdominal pain needing to empty your bowels frequently"
       ],
       "treatment": [
         "medication such as: aminosalicylates (ASAs), corticosteroids,immunosuppressants"
@@ -462,7 +453,7 @@
     {
       "tag": "underactive thyroid",
       "symptoms": [
-        "tiredness, being sensitive to cold, weight gain, constipation, depression, slow movements and thoughts, muscle aches and weakness,muscle cramps,dry and scaly skin,brittle hair and nails,irregular periods or heavy periods"
+        "tiredness being sensitive to cold weight gain constipation depression slow movements and thoughts muscle aches and weakness muscle cramps dry and scaly skin brittle hair and nails irregular periods or heavy periods"
       ],
       "treatment": [
         " treated by taking daily hormone replacement tablets called levothyroxine."
@@ -471,16 +462,16 @@
     {
       "tag": "urticaria (hives)",
       "symptoms": [
-        " itchy rash that appears on the skin. It may appear on one part of the body or be spread across large areas. "
+        " itchy rash that appears on the skin It may appear on one part of the body or be spread across large areas. "
       ],
       "treatment": [
-        "If the itchiness is causing you discomfort, antihistamines can help."
+        "If the itchiness is causing you discomfort antihistamines can help"
       ]
     },
     {
       "tag": "urinary tract infection (UTI)",
       "symptoms": [
-        "high temperature (fever) of 38C (100.4ºF) or above, pain in your sides or back, shivering and chills, feeling and being sick, confusion,agitation or restlessness"
+        "high temperature fever of 38C 100.4ºF or above pain in your sides or back shivering and chills feeling and being sick confusion agitation or restlessness"
       ],
       "treatment": [
         "Over-the-counter painkillers such as paracetamol can help with any pain. Drinking plenty of fluids may also help you feel better."
@@ -489,7 +480,7 @@
     {
       "tag": "vaginal cancer",
       "symptoms": [
-        "bleeding between your normal periods, or after sex, bleeding after the menopause (post-menopausal bleeding),blood in your urine, pelvic pain, an itch or lump in your vagina"
+        "bleeding between your normal periods or after sex bleeding after the menopause post-menopausal bleeding blood in your urine pelvic pain an itch or lump in your vagina"
       ],
       "treatment": [
         "radiotherapy,chemotherapy"
@@ -498,16 +489,16 @@
     {
       "tag": "vaginal thrush",
       "symptoms": [
-        "itching and soreness around the entrance of the vagina (itchy labia),pain during sex, which may make you worry about having sex,a stinging sensation when peeing"
+        "itching and soreness around the entrance of the vagina itchy labia pain during sex which may make you worry about having sex a stinging sensation when peeing"
       ],
       "treatment": [
-        "Thrush is treated with antifungal medicines that are available as pessaries, intravaginal creams or capsules."
+        "Thrush is treated with antifungal medicines that are available as pessaries intravaginal creams or capsules."
       ]
     },
     {
       "tag": "varicose eczema",
       "symptoms": [
-        "itchy, red and swollen,dry and flaky, scaly or crusty"
+        "itchy red and swollen dry and flaky scaly or crusty"
       ],
       "treatment": [
         " long-term treatment with a combination of: emollients (moisturisers),topical corticosteroids,compression stockings"
@@ -516,7 +507,7 @@
     {
       "tag": "varicose veins",
       "symptoms": [
-        "aching, heavy and uncomfortable legs, swollen feet and ankles, burning or throbbing in your legs, muscle cramp in your legs, particularly at night,dry, itchy and thin skin over the affected vein"
+        "aching heavy and uncomfortable legs swollen feet and ankles burning or throbbing in your legs muscle cramp in your legs particularly at night dry itchy and thin skin over the affected vein"
       ],
       "treatment": [
         "taking regular exercise, avoiding standing up for long periods, elevating the affected area when resting"
@@ -525,7 +516,7 @@
     {
       "tag": "venous leg ulcer",
       "symptoms": [
-        "a heavy feeling in your legs,swollen ankles (oedema), aching or swelling in your legs, red, flaky, scaly and itchy skin on your legs (varicose eczema), swollen and enlarged veins on your legs (varicose veins),an unpleasant and foul-smelling discharge from the ulcer"
+        "a heavy feeling in your legs swollen ankles oedema aching or swelling in your legs red flaky scaly and itchy skin on your legs varicose eczema swollen and enlarged veins on your legs varicose veins an unpleasant and foul smelling discharge from the ulcer"
       ],
       "treatment": [
         "Treatment should always be carried out by a healthcare professional trained in compression therapy for leg ulcers."
@@ -534,7 +525,7 @@
     {
       "tag": "vertigo",
       "symptoms": [
-        "loss of balance – which can make it difficult to stand or walk, feeling sick or being sick, dizziness"
+        "loss of balance which can make it difficult to stand or walk feeling sick or being sick dizziness"
       ],
       "treatment": [
         "Medicines such as prochlorperazine and some antihistamines"
@@ -543,7 +534,7 @@
     {
       "tag": "vulval cancer",
       "symptoms": [
-        "a persistent itch in the vulva,an open sore in the vulva, a burning pain when passing urine, a mole on the vulva that changes shape or colour, pain, soreness or tenderness in the vulva"
+        "a persistent itch in the vulva an open sore in the vulva a burning pain when passing urine a mole on the vulva that changes shape or colour pain soreness or tenderness in the vulva"
       ],
       "treatment": [
         "surgery, radiotherapy and chemotherapy."
@@ -552,7 +543,7 @@
     {
       "tag": " warts and verrucas",
       "symptoms": [
-        "Warts are not usually painful, but some types, such as verrucas, may hurt. They can occasionally itch or bleed."
+        "Warts are not usually painful but some types such as verrucas may hurt They can occasionally itch or bleed"
       ],
       "treatment": [
         "Treatments include: salicylic acid, cryotherapy, chemical treatments"
@@ -561,25 +552,16 @@
     {
       "tag": "whooping cough",
       "symptoms": [
-        "runny nose, red and watery eyes, a sore throat, and a slightly raised temperature."
+        "runny nose red and watery eyes a sore throat and a slightly raised temperature."
       ],
       "treatment": [
-        "drink lots of fluids, clean away mucus and sick from your or your child's mouth, and take painkillers such as paracetamol or ibuprofen for a fever."
-      ]
-    },
-    {
-      "tag": "womb (uterus) cancer",
-      "symptoms": [
-        "abnormal bleeding from the vagina"
-      ],
-      "treatment": [
-        "The main treatment for womb cancer is to remove the womb (hysterectomy),radiotherapy or chemotherapy"
+        "drink lots of fluids clean away mucus and sick from your or your child's mouth and take painkillers such as paracetamol or ibuprofen for a fever."
       ]
     },
     {
       "tag": "yellow fever",
       "symptoms": [
-        " high temperature (fever), a headache, nausea or vomiting, muscle pain, including backache, loss of appetite"
+        " high temperature fever a headache nausea or vomiting muscle pain including backache loss of appetite"
       ],
       "treatment": [
         "vaccination"

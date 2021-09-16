@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disease predictor</title>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/form.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/form.css') }}">
     <!-- Bootstrap CSS -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
@@ -31,58 +31,108 @@
 
 
 
+
 </script>
 
 <body>
 
-    <header>
-        <div class="navbar_main">
-            <nav>
-                <ul>
+<header>
+    <div class="navbar_main">
+        <nav>
+            <ul>
 
-                    <li>@)'|'(@</li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="input">
-            <form  method="post">
+                <li>@)'|'(@</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="input">
+        <form method="post">
             <input type="text" name="inp" id="inp" placeholder="Enter symptoms here...">
-            <input type="submit" name="btn" id="inpbtn" value="Submit" >
-               </form>
-        </div>
+            <input type="submit" name="btn" id="inpbtn" value="Submit">
+        </form>
+    </div>
+    <div class="head"><h3>following are the most probable cases</h3></div>
+    <div class="pred">
 
-        <div class="predicted_Diseases" id='pd'style="visibility:visible">
+        <div class="predicted_Diseases" id='pd' style="visibility:visible">
 
 
             <div class="card" style="width: 15vw;">
                 <div class="card-body">
-                  <h3 class="card-title"><b> Disease :- </b>{{dises}}</h3>
-                  <br>
+                    <h3 class="card-title"><b> Disease :- </b>{{dises[0]}}</h3>
+                    <br>
                     <p class="card-text" id="symptext"><b> Symptoms :- </b>{{symptoms}}</p>
                     <br>
-                  <p class="card-text" id="cardtext"><b> Treatment :- </b>{{treatment}}</p>
+                    <p class="card-text" id="cardtext"><b> Treatment :- </b>{{treatment[0]}}</p>
 
                 </div>
-              </div>
+            </div>
 
 
+        </div>
+        <div class="predicted_Diseases" id='pd1' style="visibility:visible">
 
+
+            <div class="card" style="width: 15vw;">
+                <div class="card-body">
+                    <h3 class="card-title"><b> Disease :- </b>{{dises[1]}}</h3>
+                    <br>
+                    <p class="card-text" id="symptext1"><b> Symptoms :- </b>{{symptoms}}</p>
+                    <br>
+                    <p class="card-text" id="cardtext1"><b> Treatment :- </b>{{treatment[1]}}</p>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="predicted_Diseases" id='pd2' style="visibility:visible">
+
+
+            <div class="card" style="width: 15vw;">
+                <div class="card-body">
+                    <h3 class="card-title"><b> Disease :- </b>{{dises[2]}}</h3>
+                    <br>
+                    <p class="card-text" id="symptext2"><b> Symptoms :- </b>{{symptoms}}</p>
+                    <br>
+                    <p class="card-text" id="cardtext2"><b> Treatment :- </b>{{treatment[2]}}</p>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="predicted_Diseases" id='pd3' style="visibility:visible">
+
+
+            <div class="card" style="width: 15vw;">
+                <div class="card-body">
+                    <h3 class="card-title"><b> Disease :- </b>{{dises[3]}}</h3>
+                    <br>
+                    <p class="card-text" id="symptext3"><b> Symptoms :- </b>{{symptoms}}</p>
+                    <br>
+                    <p class="card-text" id="cardtext3"><b> Treatment :- </b>{{treatment[3]}}</p>
+
+                </div>
+            </div>
 
 
         </div>
 
-    </main>
-    <footer>
-        <div class="text-center">
-            © 2021 Copyright:
+    </div>
 
-          </div>
-    </footer>
+</main>
+<footer>
+    <div class="text-center">
+        © 2021 Copyright:
+
+    </div>
+</footer>
 
 </body>
 

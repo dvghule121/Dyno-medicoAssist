@@ -147,14 +147,18 @@ class Dataset:
         tags = self.tags
 
         list_quest_user = [0] * len(self.all_word)
-
+        ignore = [" ",",","(",")","?","!","#","-","+","="]
         user_input = s
         user_input = user_input.split(" ")
         for word in all_word:
             for q in user_input:
-                if q == word:
+                if q == word and q not in ignore:
                     list_quest_user[all_word.index(word)] = 1
         list_quest_user = numpy.array(list_quest_user, dtype=numpy.float32)
+
+        if 1 not in list_quest_user:
+            print(list_quest_user)
+            return 0
 
         tflite_interpreter = tflite.Interpreter(model_path="static/data/model.tflite")
 
@@ -180,8 +184,8 @@ class Dataset:
         # ---------------------------------------------------------------------------
 
         # ------------------  Resizes the input shape if needed  ------------------
-        tflite_interpreter.resize_tensor_input(input_details[0]['index'], (1, 684))
-        tflite_interpreter.resize_tensor_input(output_details[0]['index'], (1, 62))
+        tflite_interpreter.resize_tensor_input(input_details[0]['index'], (1, len(all_word)))
+        tflite_interpreter.resize_tensor_input(output_details[0]['index'], (1, len(tags)))
         tflite_interpreter.allocate_tensors()
 
         input_details = tflite_interpreter.get_input_details()
@@ -210,7 +214,32 @@ class Dataset:
 
         # convert output(probabilities) to tags
         prediction_list = list(tflite_model_predictions[0])
-        return tags[prediction_list.index(max(prediction_list))]
+        index = prediction_list.index(max(prediction_list))
+        prediction_1 = tags[index]
+        prediction_list.pop(index)
+        tags.pop(index)
+
+        index = prediction_list.index(max(prediction_list))
+        prediction_2 = tags[index]
+        prediction_list.pop(index)
+        tags.pop(index)
+
+        index = prediction_list.index(max(prediction_list))
+        prediction_3 = tags[index]
+        prediction_list.pop(index)
+        tags.pop(index)
+
+        index = prediction_list.index(max(prediction_list))
+        prediction_4 = tags[index]
+        prediction_list.pop(index)
+        tags.pop(index)
+
+        pred = [prediction_1,prediction_2,prediction_3,prediction_4]
+
+
+
+
+        return pred
 
 
 if __name__ == '__main__':

@@ -15,7 +15,9 @@ def predict_disease():
             user_input = symptoms
             dm = ds()
             disease = dm.predict_tag(user_input)
-            treatment = dm.treat(disease)
+            treatment = []
+            for i in disease:
+                treatment.append(dm.treat(i))
 
     try:
         return render_template("res.html", dises=disease, treatment=treatment, symptoms=symptoms)
