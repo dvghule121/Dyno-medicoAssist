@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disease predictor</title>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/form.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/form.css') }}">
     <!-- Bootstrap CSS -->
-    
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
 
 
@@ -31,61 +31,74 @@
         
 
     
+
 </script>
 
 <body>
-    
-    <header>
-        <div class="navbar_main">
-            <nav>
-                <ul>
-                   
-                    <li>@)'|'(@</li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="input">
-            <form method="post">
+
+<header>
+    <div class="navbar_main">
+        <nav>
+            <ul>
+
+                <li>@)'|'(@</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="input">
+        <form method="post">
             <input type="text" name="inp" id="inp" placeholder="Enter symptoms here...">
             <input type="submit" name="btn" id="inpbtn" value="Submit" onclick="print_data()">
-               </form>
+        </form>
+    </div>
+
+    <div class="predicted_Diseases" id='pd'>
+
+
+        <div class="card" style="width: 15vw;">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <br>
+                <p class="card-text" id="cardtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tenetur
+                    quis impedit velit ut. Labore, iste unde ratione ullam fuga necessitatibus corrupti dicta! Magni,
+                    laborum consectetur dolor, illo laboriosam maxime nulla possimus esse, velit a aut pariatur? Facilis
+                    illo minima, necessitatibus odit nam modi voluptatibus adipisci? Harum dolores enim sunt..</p>
+
+            </div>
         </div>
 
-        <div class="predicted_Diseases" id='pd'>
-           
 
-            <div class="card" style="width: 15vw;">
-                <div class="card-body">
-                  <h3 class="card-title">Card title</h3>
-                  <br>
-                  <p class="card-text" id="cardtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id tenetur quis impedit velit ut. Labore, iste unde ratione ullam fuga necessitatibus corrupti dicta! Magni, laborum consectetur dolor, illo laboriosam maxime nulla possimus esse, velit a aut pariatur? Facilis illo minima, necessitatibus odit nam modi voluptatibus adipisci? Harum dolores enim sunt..</p>
-                  
-                </div>
-              </div>
+    </div>
 
+</main>
+<footer>
+    <div class="text-center">
+        © 2021 Copyright:
 
-            
-            
-            
-        </div>
-            
-    </main>
-    <footer>
-        <div class="text-center">
-            © 2021 Copyright:
-            
-          </div>
-    </footer>
+    </div>
+</footer>
 
 </body>
 
 
 </html>
 /static
-        /styles
-            - mainpage.css
+/styles
+- mainpage.css
+
+<div class="HomepageAnonCards_item-2FgZo">
+    <div class="HomepageAnonCards_icon-3NNBK"><img
+            src="https://cpwebassets.codepen.io/assets/packs/icon-build-0f21c66ed03bfb36c597636d27ca621e.svg"
+            alt="Icon of conveyer belt with boxes on it."></div>
+    <h2 data-test-id="promo-buildtest">Build &amp; Test</h2>
+    <p>Get work done quicker by building out <strong>entire projects</strong> or isolating code to <strong>test features
+        and animations</strong>. Want to keep it all under wraps? <a href="/features/pro"><strong>Upgrade to a <span
+            class="BadgePro-module_root-15RvN Badge-module_root-3RxmQ" data-test-id="pro-badge"
+            style="margin: 0px 2px;">PRO</span> account </strong></a>to keep your work private.</p><a href="/pen/"
+                                                                                                      class="button"><span>Try the Editor</span></a>
+</div>
