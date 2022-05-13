@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disease predictor</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/form.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
@@ -32,20 +34,32 @@
 
 
 
+
 </script>
 
-<body>
+<body style="background-color: #495057;">
 
 <header>
-    <div class="navbar_main">
-        <nav>
-            <ul>
-
-                <li>@)'|'(@</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
+    <div>
+        <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <b><em>MA</em></b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3" aria-current="page" href="/about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </div>
 </header>
@@ -56,80 +70,54 @@
             <input type="submit" name="btn" id="inpbtn" value="Submit">
         </form>
     </div>
-    <div class="head"><h3>following are the most probable cases</h3></div>
-    <div class="pred">
 
+
+    <div class="pred">
+        {% if dises|length != 0 %}
+        {% for i in range(4) %}
         <div class="predicted_Diseases" id='pd' style="visibility:visible">
 
 
-            <div class="card" style="width: 15vw;">
+            <div>
                 <div class="card-body">
-                    <h3 class="card-title"><b> Disease :- </b>{{dises[0]}}</h3>
+                    <h3 class="title"><b>Disease :- </b>{{dises[i]}}</h3>
                     <br>
-                    <p class="card-text" id="symptext"><b> Symptoms :- </b>{{symptoms}}</p>
-                    <br>
-                    <p class="card-text" id="cardtext"><b> Treatment :- </b>{{treatment[0]}}</p>
+                    <p class="card-text" id="symptext"><b> Symptoms :- </b>{{symptoms[i]}}</p>
+                    <p class="card-text" id="cardtext"><b> Treatment :- </b>{{treatment[i]}}</p>
 
                 </div>
             </div>
 
 
         </div>
-        <div class="predicted_Diseases" id='pd1' style="visibility:visible">
+        {%endfor%}
+        {%else%}
+        <div class="predicted_Diseases" style="visibility:visible">
 
 
-            <div class="card" style="width: 15vw;">
+            <div>
                 <div class="card-body">
-                    <h3 class="card-title"><b> Disease :- </b>{{dises[1]}}</h3>
-                    <br>
-                    <p class="card-text" id="symptext1"><b> Symptoms :- </b>{{symptoms}}</p>
-                    <br>
-                    <p class="card-text" id="cardtext1"><b> Treatment :- </b>{{treatment[1]}}</p>
+                    <h3><p>Medico assist 🤖 is Ai powered Simple disease prediction site based on symptoms.</p>
+                        <p>This site is built using Deep learning with Python programming language and tensorflow library.
+                            this web app will predict possible medical conditions based on the symptoms provided.</p>
 
+                        <p> -> Model is trained on the small dataset (collected customly from diff health sites) but
+                            still has accurecy around 98%</p>
+
+                       <b><p> ⚠️ Disclaimer ⚠️</p>
+                        <p>This site is only for educational purpose not for practical use 🧑‍⚕️👨‍⚕️.</p></b> </h3>
+                    <br>
                 </div>
             </div>
-
-
-        </div>
-        <div class="predicted_Diseases" id='pd2' style="visibility:visible">
-
-
-            <div class="card" style="width: 15vw;">
-                <div class="card-body">
-                    <h3 class="card-title"><b> Disease :- </b>{{dises[2]}}</h3>
-                    <br>
-                    <p class="card-text" id="symptext2"><b> Symptoms :- </b>{{symptoms}}</p>
-                    <br>
-                    <p class="card-text" id="cardtext2"><b> Treatment :- </b>{{treatment[2]}}</p>
-
-                </div>
-            </div>
-
-
-        </div>
-        <div class="predicted_Diseases" id='pd3' style="visibility:visible">
-
-
-            <div class="card" style="width: 15vw;">
-                <div class="card-body">
-                    <h3 class="card-title"><b> Disease :- </b>{{dises[3]}}</h3>
-                    <br>
-                    <p class="card-text" id="symptext3"><b> Symptoms :- </b>{{symptoms}}</p>
-                    <br>
-                    <p class="card-text" id="cardtext3"><b> Treatment :- </b>{{treatment[3]}}</p>
-
-                </div>
-            </div>
+            {%endif%}
 
 
         </div>
 
-    </div>
-
-</main>
+    </div></main>
 <footer>
     <div class="text-center">
-        © 2021 Copyright:
+        © 2021 Copyright: DynoCodes
 
     </div>
 </footer>

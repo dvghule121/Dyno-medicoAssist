@@ -19,18 +19,20 @@ padding: 0;}
     font-weight: bold;
 }
 
+.input{
+display: flex;
+justify-content:center;}
 
 .input form{
      margin: 5vh 15vw;
     /* height: 5vh; */
     padding: 3vh 1vh;
     display: flex;
-    display: flex;
     width: 60vw;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content:flex-end;
 }
 #inp {
     padding: 1% 5%;
@@ -65,14 +67,14 @@ padding: 0;}
 } 
 
 body{
-    margin: 0;
+    /* margin: 0;
     background: url("https://data.1freewallpapers.com/download/long-pier.jpg");
-    /* https://userscontent2.emaze.com/images/467192b0-f6c3-4a1a-94f7-0617d62cdcfd/707a5a44e704728d2ca1f8b12dfb2bc9.png        no-repeat */
+    https://userscontent2.emaze.com/images/467192b0-f6c3-4a1a-94f7-0617d62cdcfd/707a5a44e704728d2ca1f8b12dfb2bc9.png        no-repeat */
     /* Full height */
   /* width: fill-content; */
 
   /* Center and scale the image nicely */
-  
+
   background-repeat: no-repeat;
   background-size: 100% 100%;
   
@@ -107,17 +109,32 @@ body{
     padding-bottom: 15px;
 }
 
+.pred{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
 footer{
     text-align: center;
     display: flex;
     position: relative;
-    background: rgb(44, 44, 218);
+    color:white;
     height: 8vh;
-    color: aliceblue;
     justify-content: center;
 }
 main{
     min-height: 80vh;
     max-width: 100vw;
 
+}
+
+.title{
+    background:#495057;
+    width:100%;
+    height:50px;
+    padding:1%;
+    color:white;
+    text-size:medium;
 }
