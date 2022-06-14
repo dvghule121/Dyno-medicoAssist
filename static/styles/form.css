@@ -138,3 +138,15 @@ main{
     color:white;
     text-size:medium;
 }
+
+
+@media screen and (max-width:480px) {
+
+  .card-body{
+    width: 85%;
+        margin: 7%;
+  }
+
+
+
+}

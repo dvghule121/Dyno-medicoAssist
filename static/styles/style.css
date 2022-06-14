@@ -6,7 +6,7 @@
     width: 100%;
     align-items: center;
 }
-.Cardfull{
+.full{
   border: 2px solid white;
   background-color: whitesmoke;
   width: 60%;
@@ -100,5 +100,7 @@
   .about{
     width: 95%;
   }
+
+
   
 }
