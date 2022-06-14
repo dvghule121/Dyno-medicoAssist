@@ -11,7 +11,7 @@
 <body style="background-color: #495057;">
     <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <b><em>MA</em></b></a>
+            <a class="navbar-brand" href="/"> <b><em>MA</em></b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,16 +29,45 @@
     </nav>
 
     <center>
-        <div class="about my-5" id="about">
-            <h3><p>Medico assist 🤖 is Ai powered Simple disease prediction site based on symptoms.</p>
-                        <p>This site is built using Deep learning with Python programming language and tensorflow library.
-                            this web app will predict possible medical conditions based on the symptoms provided.</p>
+        <div class="about my-5" style="background:white;color:black;" id="about">
+            <div class="card-body" style="padding:3%">
+                    <h3 style="text-align:center;"><p><b>Medico assist 🤖 is Ai powered Disease prediction site.</b></p>
+                    </h3>
+                    <ul>
+                        <br>
 
-                        <p> -> Model is trained on the small dataset (collected customly from diff health sites) but
-                            still has accurecy around 98%</p>
+                        </li>
+                         <li><p>
+                            This web app will predict possible medical conditions based on the symptoms provided.</p>
+                        </li>
+                        <li><p>This site is developed using Deep learning with Python programming language and tensorflow
+                            library.</p>
 
-                       <b><p> ⚠️ Disclaimer ⚠️</p>
-                        <p>This site is only for educational purpose not for practical use 🧑‍⚕️👨‍⚕️.</p></b> </h3>
+                        <li><p> Deep learning Model is trained on the small dataset using Recurrent Neural Networks (RNNs) Algorithm.</p></li>
+
+                        <li><p>Below are Some model specifications.
+                        <ul><li><p>Input layer</p></li>
+                        <li><p>One Dense layer with 64 Neurons and relu as activation function.</p></li>
+                        <li><p>Output layer with 4 neuron (we are making 4 predications here) with activation Function Softmax function</p></li>
+                        <li><p>Loss function - Categorical Cross Entropy</p></li>
+                        <li><p>Optimizer - Adams </p></li>
+                        <li><p>Accuracy - 1.00 (trained on too small dataset)</p></li></ul></p></li>
+
+                        <li><p>We have created custom dataset from different health sites.</p></li>
+
+                        <li><p>Though model has 100% accuracy it does make wrong predictions so take it as educational purpose.</p></li>
+
+                    </ul>
+                    <br><br>
+
+
+                    <h5 style="text-align:center">References</h5>
+                    <p style="text-align:center;" ><a href="https://www.medicinenet.com/diseases_and_conditions/alpha_a.htm">www.medicinenet.com</a>
+                    </p><br>
+
+                       <b><p style="text-align:center"> ⚠️ Disclaimer ⚠️</p>
+                        <p style="text-align:center">This site is only for educational purpose not for practical use 🧑‍⚕️👨‍⚕️.</p></b>
+                </div>
         </div>
         </center>
 

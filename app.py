@@ -18,9 +18,15 @@ def predict_disease():
             dm = ds()
             disease = dm.predict_tag(user_input)
             treatment = []
-            for i in disease:
-                syms.append(dm.return_symp(i))
-                treatment.append(dm.treat(i))
+            if disease != 0:
+                for i in disease:
+                    syms.append(dm.return_symp(i))
+                    treatment.append(dm.treat(i))
+            elif disease == 0:
+                disease = ["Oops!! Disease Not Found "]
+                syms = ["Looks like symptoms are different than our dataset"]
+                treatment = ["Null"]
+
 
     try:
         return render_template("res.html", dises=disease, treatment=treatment, symptoms=syms)
