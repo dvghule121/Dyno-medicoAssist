@@ -147,6 +147,10 @@ main{
         margin: 7%;
   }
 
+  .input form, #inp{
+  width:85vw;}
+
+
 
 
 }
