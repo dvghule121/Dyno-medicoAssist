@@ -1,4 +1,6 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, jsonify
+
+import SpeechToText
 from train import Dataset as ds
 
 app = Flask(__name__)
@@ -7,6 +9,19 @@ app = Flask(__name__)
 @app.route("/about", methods=["GET", "POST"])
 def about():
     return render_template("about.html")
+
+
+@app.route('/speech-to-text', methods=['POST'])
+def speech_to_text():
+    # Get the bytearray of speech data from the request
+    audio_bytes = request.get_data()
+
+    # Convert the bytearray to text using the bytearray_to_text function
+    text = SpeechToText.bytearray_to_text(audio_bytes)
+
+    # Return the text as a JSON response
+    return jsonify({'text': text})
+
 
 @app.route("/", methods=["GET", "POST"])
 def predict_disease():
@@ -26,7 +41,6 @@ def predict_disease():
                 disease = ["Oops!! Disease Not Found "]
                 syms = ["Looks like symptoms are different than our dataset"]
                 treatment = ["Null"]
-
 
     try:
         return render_template("res.html", dises=disease, treatment=treatment, symptoms=syms)
