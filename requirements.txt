@@ -6,6 +6,5 @@ itsdangerous==2.0.1
 Jinja2==3.0.1
 MarkupSafe==2.0.1
 numpy==1.21.2
-tflite-runtime @https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_x86_64.whl#sha256=132f8c184b99d69e40040d8067eb962d9435cd2579f5563c33b8673d257d353d
 Werkzeug==2.0.1
 SpeechRecognition

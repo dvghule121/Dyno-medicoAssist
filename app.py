@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify
 
 import SpeechToText
-from train import Dataset as ds
+from MedicalSymptomChatbot import Dataset as ds
 
 app = Flask(__name__)
 

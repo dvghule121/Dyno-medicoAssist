@@ -3,7 +3,14 @@
     {
       "tag": "allergies",
       "symptoms": [
-        "sneezing runny nose red itchy watery eyes wheezing coughing rash asthema eczema"
+        "sneezing",
+        "runny nose",
+        "red itchy watery eyes",
+        "wheezing",
+        "coughing",
+        "rash",
+        "asthma",
+        "eczema"
       ],
       "treatment": [
         "antihistamines decongestants lotion and creams steroid apray drop cream inhalers for saftey please get professional advice from your Doctor"
@@ -12,7 +19,14 @@
     {
       "tag": "alcohol related liver disease",
       "symptoms": [
-        "feeling sick weight loss loss of appetite yellowing of the eyes and skin jaundice swelling in the ankles and tummy confusion or drowsiness vomiting blood or passing blood in your stools"
+        "feeling sick",
+        "weight loss",
+        "loss of appetite",
+        "yellowing of the eyes and skin",
+        "jaundice",
+        "swelling in the ankles and tummy",
+        "confusion or drowsiness",
+        "vomiting blood or passing blood in your stools"
       ],
       "treatment": [
         "There's currently no specific medical treatment for ARLD. The main treatment is to stop drinking, preferably for the rest of your life. This reduces the risk of further damage to your liver and gives it the best chance of recovering. A liver transplant may be required in severe cases where the liver has stopped functioning and doesn't improve when you stop drinking alcohol."
@@ -21,7 +35,15 @@
     {
       "tag": "appendicitis",
       "symptoms": [
-        "pain in the middle of your tummy abdomen that come and go lose your appetite"
+        "pain in the middle of your tummy that comes and goes",
+        "loss of appetite",
+        "nausea and vomiting",
+        "high temperature (fever)",
+        "constipation or diarrhoea",
+        "painful urination",
+        "painful sneezing or coughing",
+        "sharp pain when you press on your tummy",
+        "swelling and bloating of your abdomen"
       ],
       "treatment": [
         "In most cases of appendicitis, the appendix needs to be surgically removed as soon as possible."
@@ -30,25 +52,34 @@
     {
       "tag": "arthritis",
       "symptoms": [
-        "joint pain tenderness and stiffness inflammation in and around the joints restricted movement of the joints warm red skin over the affected joint weakness and muscle wasting"
+        "joint pain",
+        "joint tenderness and stiffness",
+        "inflammation in and around the joints",
+        "restricted movement of the joints",
+        "warm and red skin over the affected joint",
+        "weakness and muscle wasting",
+        "joint swelling",
+        "morning stiffness that lasts for more than an hour",
+        "fatigue",
+        "weight loss"
       ],
       "treatment": [
         "There's no cure for arthritis, but there are many treatments that can help slow down the condition. painkillers arthroplasty (joint replacement) arthodesis (joint fusion)"
       ]
     },
     {
-      "tag": "bipolar_disorder",
-      "symptoms": [
-        "depression feeling very low and feeling very high and overactive simple mood swings"
-      ],
-      "treatment": [
-        "medication to treat the main symptoms of depression and mania when they occur psychological treatment such as talking therapy, which can help you deal with depression, and provides advice about how to improve your relationships"
-      ]
-    },
-    {
       "tag": "bronchiectasis",
       "symptoms": [
-        "persistent cough brings phlegm sputum breathlessness"
+        "persistent cough that brings up phlegm or sputum",
+        "shortness of breath",
+        "chest pain",
+        "wheezing",
+        "fatigue",
+        "frequent lung infections",
+        "coughing up blood",
+        "weight loss",
+        "clubbing of the fingers (enlarged fingertips)",
+        "crackles or wheezing sounds in the chest"
       ],
       "treatment": [
         "exercises and special devices to help you clear mucus out of your lungs. medication to help improve airflow wit the lungs. antibiotics to treat any lung infecti that develop"
@@ -57,7 +88,16 @@
     {
       "tag": "common_cold",
       "symptoms": [
-        "sore throat blocked or runny nose sneezing cough headache"
+        "sore throat",
+        "blocked or runny nose",
+        "sneezing",
+        "cough",
+        "headache",
+        "fatigue",
+        "muscle aches",
+        "watery eyes",
+        "low-grade fever",
+        "loss of appetite"
       ],
       "treatment": [
         "esting, drinking plenty of fluids and eating healthily. taking over-the-counter painkillers, such as paracetamol or ibuprofen, to reduce any fever or discomfort.using decongestant sprays or tablets to relieve a blocked nose.trying remedies such as gargling salt water and sucking on menthol sweets.\n if your symptoms persist for more than three weeks please seek for professional advise"
@@ -66,7 +106,13 @@
     {
       "tag": "constipation",
       "symptoms": [
-        "stomach ache and cramps feeling bloated feeling sick loss of appetite gas"
+        "infrequent bowel movements",
+        "difficulty passing stool",
+        "abdominal discomfort",
+        "bloating",
+        "straining during bowel movements",
+        "hard or lumpy stools",
+        "feeling of incomplete evacuation"
       ],
       "treatment": [
         "Diet and lifestyle changes are usually recommended as the first treatment for constipation.This includes gradually increasing your daily intake of fibre, making sure you drink plenty of fluids, and trying to get more exercise.If these aren't effective, your pharmacist may recommend an oral laxative medication that can help you empty your bowels."
@@ -75,7 +121,19 @@
     {
       "tag": "covid-19",
       "symptoms": [
-        "fever dry cough tiredness aches and pains sore throat diarrhoea conjunctivitis headache loss of taste or smell a rash on skin, or discolouration of fingers or toes difficulty breathing or shortness of breath chest pain or pressure loss of speech or movement"
+        "fever",
+        "dry cough",
+        "tiredness",
+        "aches and pains",
+        "sore throat",
+        "diarrhoea",
+        "conjunctivitis",
+        "headache",
+        "loss of taste or smell",
+        "skin rash or discoloration of fingers/toes",
+        "difficulty breathing or shortness of breath",
+        "chest pain or pressure",
+        "loss of speech or movement"
       ],
       "treatment": [
         "Isolate yourself in a well ventilated room.Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.Take rest and drink a lot of fluids to maintain adequate hydration.Frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer.\n\n take prescribed doses of vaccine.\n\n STAY HOME, STAY SAFE "
@@ -84,55 +142,94 @@
     {
       "tag": "flu",
       "symptoms": [
-        "a high temperature tiredness and weakness a headache general aches and pains a dry chesty cough"
+        "high temperature (fever)",
+        "tiredness and weakness",
+        "headache",
+        "general aches and pains",
+        "dry chesty cough",
+        "sore throat"
       ],
       "treatment": [
-        "Antiviral medication, Antibiotics If you feel unwell and have a fever, you can take paracetamol or anti-inflammatory medicines such as ibuprofen  lower your temperature and relieve aches. Children under 16 shouldn't be given aspirin"
+        "Rest, stay hydrated, and manage symptoms with over-the-counter medications like paracetamol or ibuprofen. Antiviral medication may be prescribed. Avoid spreading the flu by covering your mouth and nose when sneezing or coughing, and maintaining good hand hygiene."
       ]
     },
     {
       "tag": "heart_failure",
       "symptoms": [
-        "Breathlessness Tiredness and lethargy Leg swelling Loss of appetite cough and a frothy spit"
+        "Breathlessness",
+        "Tiredness and lethargy",
+        "Leg swelling",
+        "Loss of appetite",
+        "Cough and a frothy spit"
       ],
       "treatment": [
-        "cpr can help to save the life, call the ambulance as soon as possible."
+        "Immediate medical attention is needed. Treatment may involve medications to manage symptoms, lifestyle changes such as dietary adjustments and exercise, and in some cases, medical procedures or surgery."
       ]
     },
     {
       "tag": "kidney_stones",
       "symptoms": [
-        "severe pain in the abdomen  urinary tract infection ache in the lower back periods of intense pain in the back or side of your abdomen feeling restless and unable to lie still nausea needing to urinate more often than normal pain when you urinate blood in your urine"
+        "Severe pain in the abdomen",
+        "Urinary tract infection",
+        "Ache in the lower back",
+        "Periods of intense pain in the back or side of your abdomen",
+        "Feeling restless and unable to lie still",
+        "Nausea",
+        "Needing to urinate more often than normal",
+        "Pain when you urinate",
+        "Blood in your urine"
       ],
       "treatment": [
-        "Larger stones may need to be broken up using ultrasound or laser energy. Occasionally, keyhole surgery may be needed to remove very large kidney stones directly.visit your Doctor for more info and treatment."
+        "Treatment depends on the size and location of the kidney stone. Small stones may pass on their own with plenty of fluids. Larger stones may require medical intervention, such as shock wave lithotripsy, ureteroscopy, or surgical removal."
       ]
     },
     {
-      "tag": "kidney infection",
+      "tag": "kidney_infection",
       "symptoms": [
-        "pain and discomfort in your side lower back or around your genitals high temperature it may reach 39.5C or 103.1F shivering or chills feeling very weak or tired loss of appetite feeling sick or being sick"
+        "Pain and discomfort in your side, lower back, or around your genitals",
+        "High temperature (fever) that may reach 39.5°C (103.1°F)",
+        "Shivering or chills",
+        "Feeling very weak or tired",
+        "Loss of appetite",
+        "Feeling sick or being sick"
       ],
       "treatment": [
-        "Antibiotics,Painkillers"
+        "Kidney infections are typically treated with antibiotics to eliminate the bacterial infection. Pain relievers may also be recommended to manage discomfort."
       ]
     },
     {
-      "tag": "lyme disease",
+      "tag": "lyme_disease",
       "symptoms": [
-        "tiredness fatigue muscle pain joint pain headaches a high temperature fever chills neck stiffnes spain and swelling in the joints nerve problems such as numbness or pain in your limbs memory problems difficulty concentrating heart problems"
+        "Tiredness and fatigue",
+        "Muscle pain",
+        "Joint pain",
+        "Headaches",
+        "High temperature (fever)",
+        "Chills",
+        "Neck stiffness",
+        "Swelling and pain in the joints",
+        "Nerve problems such as numbness or pain in limbs",
+        "Memory problems",
+        "Difficulty concentrating",
+        "Heart problems"
       ],
       "treatment": [
-        "antibiotics"
+        "Lyme disease is typically treated with antibiotics. Early diagnosis and treatment are important to prevent more severe complications."
       ]
     },
     {
-      "tag": "maleria",
+      "tag": "malaria",
       "symptoms": [
-        "a high temperature fever headache sweats chills vomiting muscle pains diarrhoea generally feeling unwell"
+        "High temperature (fever)",
+        "Headache",
+        "Sweats and chills",
+        "Vomiting",
+        "Muscle pains",
+        "Diarrhoea",
+        "Feeling generally unwell"
       ],
       "treatment": [
-        "chloroquine phosphate artemisinin based cobinatination therapies"
+        "Malaria is treated with antimalarial medications. The choice of medication depends on the type of malaria and the severity of the symptoms."
       ]
     },
     {
@@ -147,46 +244,31 @@
     {
       "tag": "obesity",
       "symptoms": [
-        "difficulty in sleeping back or joint pain excessive sweating intolerance to heat infections in skin folds fatigue depression"
+        "Excessive body weight",
+        "Difficulty in sleeping",
+        "Back or joint pain",
+        "Excessive sweating",
+        "Intolerance to heat",
+        "Infections in skin folds",
+        "Fatigue",
+        "Depression"
       ],
       "treatment": [
-        "exercise on prescription,diet,medication"
+        "Treatment for obesity involves a combination of diet, exercise, lifestyle changes, and in some cases, medication or surgical interventions"
       ]
     },
     {
-      "tag": "oral thrush in adults",
+      "tag": "oral_thrush_in_adults",
       "symptoms": [
-        "white patches plaques in the mouth that can often be wiped off leaving behind red areas that may bleed slightly loss of taste or an unpleasant taste in the mouth redness inside the mouth and throat cracks at the corners of the mouth a painful burning sensation in the mouth"
+        "White patches or plaques in the mouth",
+        "Patches that can be wiped off, leaving behind red areas that may bleed slightly",
+        "Loss of taste or an unpleasant taste in the mouth",
+        "Redness inside the mouth and throat",
+        "Cracks at the corners of the mouth",
+        "Painful burning sensation in the mouth"
       ],
       "treatment": [
-        " antifungal medicines"
-      ]
-    },
-    {
-      "tag": "panic disorder",
-      "symptoms": [
-        "a sensation that your heart is beating irregularly palpitations sweating trembling hot flushes chills shortness of breath a choking sensation chest pain nausea dizziness feeling faint numbness or pins and needles dry mouth a need to go to the toilet ringing in your ears a feeling of dread or a fear of dying a churning stomach a tingling sensation in your fingers shivering shaking"
-      ],
-      "treatment": [
-        "cognitive behavioural therapy,support groups,antidepressants,selective serotonin reuptake inhibitors (SSRIs)"
-      ]
-    },
-    {
-      "tag": "personality disorder",
-      "symptoms": [
-        "lack of concern regret or remorse about other people's distress irresponsibility and disregard for normal social behaviour difficulty in sustaining long-term relationships little ability to tolerate frustration and to control their anger lack of guilt or not learning from their mistakes blaming others for problems in their lives"
-      ],
-      "treatment": [
-        "psychological therapie,psychodynamic reflective psychotherapy cognitive behavioural therapy interpersonal therapy therapeutic communities medication"
-      ]
-    },
-    {
-      "tag": "sucide",
-      "symptoms": [
-        "life history mental health lifestyle employment elationships genetics and family history"
-      ],
-      "treatment": [
-        "Talking to someone you trust, kyun acchi khasi jindagi barbaad karne pe tule ho."
+        "Oral thrush in adults is typically treated with antifungal medicines to eliminate the fungal infection."
       ]
     },
     {
@@ -196,15 +278,6 @@
       ],
       "treatment": [
         "suitable clothing,sunscreen"
-      ]
-    },
-    {
-      "tag": "tuberculosis",
-      "symptoms": [
-        "lack of appetite and weight loss a high temperature fever night sweats extreme tiredness or fatigue"
-      ],
-      "treatment": [
-        "two antibiotics isoniazid and rifampicin for six months two additional antibiotics pyrazinamide and ethambutol for the first two months"
       ]
     },
     {
@@ -219,181 +292,200 @@
     {
       "tag": "tonsillitis",
       "symptoms": [
-        "high temperature fever over 38C 100.4F coughing headache earache feeling sick feeling tired swollen painful lymph glands in your neck loss of voice or changes to your voice"
+        "Sore throat",
+        "Swollen and red tonsils",
+        "Painful swallowing",
+        "Fever over 38°C (100.4°F)",
+        "Coughing",
+        "Headache",
+        "Earache",
+        "Feeling sick or being sick",
+        "Loss of voice or changes to your voice"
       ],
       "treatment": [
-        "self-help,antibiotics,surgery,post-operative bleeding"
-      ]
-    },
-    {
-      "tag": "thirst",
-      "symptoms": [
-        "diarrhoea vomiting In some cases thirst may be caused by something as simple as a recent meal or snack Eating salty or spicy foods can cause you to suddenly feel thirsty"
-      ],
-      "treatment": [
-        "If you feel thirsty all the time and have other symptoms, your GP will probably carry out a blood glucose test to see whether you have diabetes."
+        "Over-the-counter painkillers such as paracetamol and ibuprofen can help relieve painful symptoms. If symptoms persist or worsen, consult a healthcare professional."
       ]
     },
     {
       "tag": "tuberculosis (TB)",
       "symptoms": [
-        "lack of appetite and weight loss a high temperature fever night sweats extreme tiredness or fatigue "
+        "Persistent cough that lasts for more than three weeks",
+        "Coughing up blood or sputum",
+        "Feeling tired and weak",
+        "Weight loss",
+        "Loss of appetite",
+        "High temperature (fever)",
+        "Night sweats",
+        "Shortness of breath or chest pain"
       ],
       "treatment": [
-        "Treatment for tuberculosis (TB) will usually involve a long course of antibiotics lasting several months."
+        "Treatment for tuberculosis (TB) usually involves a long course of antibiotics lasting several months. Early diagnosis and proper medical care are crucial for effective treatment."
       ]
     },
     {
       "tag": "tooth decay",
       "symptoms": [
-        "grey brown or black spots appearing on your teeth bad breath an unpleasant taste in your mouth "
+        "Grey, brown, or black spots appearing on your teeth",
+        "Toothache, either continuous pain or occasional sharp pain",
+        "Tooth sensitivity, especially to hot, cold, or sweet foods",
+        "Bad breath and an unpleasant taste in your mouth"
       ],
       "treatment": [
-        ""
-      ]
-    },
-    {
-      "tag": "tonsillitis",
-      "symptoms": [
-        "sore throat tonsils will be red and swollen and your throat may be very painful making swallowing difficult high temperature (fever) over 38C (100.4F) coughing headache earache feeling sick "
-      ],
-      "treatment": [
-        "Over the counter painkillers, such as paracetamol and ibuprofen, can help relieve painful symptoms such as a sore throat."
-      ]
-    },
-    {
-      "tag": "thrush",
-      "symptoms": [
-        "itching soreness and redness or fissures like paper cuts around the vagina or anus unusual white discharge from the vagina that may be thick and look like cottage cheese it sometimes smells yeasty pain when peeing or having sex"
-      ],
-      "treatment": [
-        "antifungal cream to apply to the genital area, vaginal pessaries (tablets that you put into your vagina), oral pills or a combination."
+        "Tooth decay can be prevented through good oral hygiene practices such as regular brushing, flossing, and avoiding sugary foods and drinks. If decay has already occurred, treatment may involve dental fillings, crowns, or other procedures depending on the severity of the damage."
       ]
     },
     {
       "tag": "tinnitus",
       "symptoms": [
-        "buzzing humming grinding hissing whistling"
+        "Perception of buzzing, humming, grinding, hissing, or whistling sounds in the ears",
+        "Sounds may be continuous or intermittent",
+        "May be accompanied by hearing loss or dizziness"
       ],
       "treatment": [
-        "sound therapy,counselling,cognitive behavioural therapy (CBT),tinnitus retraining therapy (TRT)"
+        "Treatment for tinnitus depends on the underlying cause. It can include sound therapy, counseling, cognitive behavioral therapy (CBT), and tinnitus retraining therapy (TRT). In some cases, addressing related conditions such as hearing loss or earwax buildup may alleviate tinnitus symptoms."
       ]
     },
     {
-      "tag": "trichomonas infection",
+      "tag": "ulcerative_colitis",
       "symptoms": [
-        "pain or a burning sensation when peeing itching and soreness in the genital area a yellow or green discharge from the vagina or penis which can sometimes have an unpleasant fishy smell"
+        "Recurring diarrhea containing blood, mucus, or pus",
+        "Abdominal pain and cramping",
+        "Frequent need to empty the bowels",
+        "Fatigue and weakness"
       ],
       "treatment": [
-        "Antibiotics will get rid of the infection."
+        "Treatment for ulcerative colitis may involve medication such as aminosalicylates (ASAs), corticosteroids, and immunosuppressants to reduce inflammation and manage symptoms.",
+        "In severe cases, surgery to remove the colon and rectum (proctocolectomy) may be considered.",
+        "Dietary changes and lifestyle modifications can also play a role in managing symptoms and promoting remission."
       ]
     },
     {
-      "tag": "ulcerative colitis",
+      "tag": "underactive_thyroid",
       "symptoms": [
-        "recurring diarrhoea which may contain blood mucus or pus abdominal pain needing to empty your bowels frequently"
+        "Fatigue and tiredness",
+        "Feeling sensitive to cold",
+        "Unexplained weight gain",
+        "Constipation",
+        "Depression",
+        "Slow movements and thoughts",
+        "Muscle aches and weakness",
+        "Dry and scaly skin",
+        "Brittle hair and nails",
+        "Irregular or heavy periods"
       ],
       "treatment": [
-        "medication such as: aminosalicylates (ASAs), corticosteroids,immunosuppressants"
+        "Underactive thyroid, also known as hypothyroidism, is typically treated with hormone replacement therapy using medications like levothyroxine.",
+        "Regular monitoring of thyroid hormone levels is important to ensure effective treatment.",
+        "Lifestyle changes such as maintaining a healthy diet, staying physically active, and managing stress can also contribute to managing the condition."
       ]
     },
     {
-      "tag": "underactive thyroid",
+      "tag": "urticaria",
       "symptoms": [
-        "tiredness being sensitive to cold weight gain constipation depression slow movements and thoughts muscle aches and weakness muscle cramps dry and scaly skin brittle hair and nails irregular periods or heavy periods"
+        "Itchy rash on the skin",
+        "Rash may appear in one part of the body or spread across large areas"
       ],
       "treatment": [
-        " treated by taking daily hormone replacement tablets called levothyroxine."
+        "Antihistamines can help relieve discomfort and itching associated with urticaria.",
+        "Identifying and avoiding triggers that cause urticaria outbreaks is important.",
+        "In severe cases, a doctor may recommend other medications or treatments to manage symptoms."
       ]
     },
     {
-      "tag": "urticaria (hives)",
+      "tag": "urinary_tract_infection",
       "symptoms": [
-        " itchy rash that appears on the skin It may appear on one part of the body or be spread across large areas. "
+        "High temperature (fever) of 38°C (100.4°F) or above",
+        "Pain in your sides or back",
+        "Shivering and chills",
+        "Feeling and being sick",
+        "Confusion, agitation, or restlessness"
       ],
       "treatment": [
-        "If the itchiness is causing you discomfort antihistamines can help"
+        "Over-the-counter painkillers such as paracetamol can help with pain.",
+        "Drinking plenty of fluids may also help alleviate symptoms.",
+        "Antibiotics are commonly prescribed to treat urinary tract infections.",
+        "If symptoms persist or worsen, it's important to consult a healthcare professional."
       ]
     },
     {
-      "tag": "urinary tract infection (UTI)",
+      "tag": "varicose_eczema",
       "symptoms": [
-        "high temperature fever of 38C 100.4ºF or above pain in your sides or back shivering and chills feeling and being sick confusion agitation or restlessness"
+        "Itchy, red, and swollen skin",
+        "Dry and flaky skin",
+        "Scaly or crusty skin"
       ],
       "treatment": [
-        "Over-the-counter painkillers such as paracetamol can help with any pain. Drinking plenty of fluids may also help you feel better."
+        "Long-term treatment with a combination of:",
+        "- Emollients (moisturizers) to keep the skin hydrated.",
+        "- Topical corticosteroids to reduce inflammation and itching.",
+        "- Compression stockings to improve blood circulation in the affected area.",
+        "Consult a healthcare professional for proper diagnosis and treatment."
       ]
     },
     {
-      "tag": "vaginal thrush",
+      "tag": "varicose_veins",
       "symptoms": [
-        "itching and soreness around the entrance of the vagina itchy labia pain during sex which may make you worry about having sex a stinging sensation when peeing"
+        "Aching, heavy, and uncomfortable legs",
+        "Swollen feet and ankles",
+        "Burning or throbbing in your legs",
+        "Muscle cramps in your legs, particularly at night",
+        "Dry, itchy, and thin skin over the affected vein"
       ],
       "treatment": [
-        "Thrush is treated with antifungal medicines that are available as pessaries intravaginal creams or capsules."
+        "Taking regular exercise to improve blood circulation.",
+        "Avoiding standing up for long periods to reduce pressure on the veins.",
+        "Elevating the affected area when resting to reduce swelling.",
+        "Wearing compression stockings to improve blood flow and reduce symptoms.",
+        "Consult a healthcare professional for proper diagnosis and treatment."
       ]
     },
     {
-      "tag": "varicose eczema",
+      "tag": "venous_leg_ulcer",
       "symptoms": [
-        "itchy red and swollen dry and flaky scaly or crusty"
+        "A heavy feeling in your legs",
+        "Swollen ankles (oedema)",
+        "Aching or swelling in your legs",
+        "Red, flaky, scaly, and itchy skin on your legs",
+        "Enlarged veins on your legs (varicose veins)",
+        "An unpleasant and foul-smelling discharge from the ulcer"
       ],
       "treatment": [
-        " long-term treatment with a combination of: emollients (moisturisers),topical corticosteroids,compression stockings"
+        "Treatment should always be carried out by a healthcare professional trained in compression therapy for leg ulcers.",
+        "Wearing compression stockings to improve blood flow and reduce swelling.",
+        "Cleaning and dressing the ulcer regularly to promote healing.",
+        "Elevating the affected leg when resting to reduce swelling.",
+        "Consult a healthcare professional for proper diagnosis and treatment."
       ]
     },
     {
-      "tag": "varicose veins",
+      "tag": "whooping_cough",
       "symptoms": [
-        "aching heavy and uncomfortable legs swollen feet and ankles burning or throbbing in your legs muscle cramp in your legs particularly at night dry itchy and thin skin over the affected vein"
+        "Runny nose",
+        "Red and watery eyes",
+        "A sore throat",
+        "A slightly raised temperature"
       ],
       "treatment": [
-        "taking regular exercise, avoiding standing up for long periods, elevating the affected area when resting"
+        "Drink lots of fluids.",
+        "Clean away mucus and sick from your or your child's mouth.",
+        "Take painkillers such as paracetamol or ibuprofen for a fever.",
+        "Consult a healthcare professional for proper diagnosis and treatment."
       ]
     },
     {
-      "tag": "venous leg ulcer",
+      "tag": "yellow_fever",
       "symptoms": [
-        "a heavy feeling in your legs swollen ankles oedema aching or swelling in your legs red flaky scaly and itchy skin on your legs varicose eczema swollen and enlarged veins on your legs varicose veins an unpleasant and foul smelling discharge from the ulcer"
+        "High temperature (fever)",
+        "A headache",
+        "Nausea or vomiting",
+        "Muscle pain, including backache",
+        "Loss of appetite"
       ],
       "treatment": [
-        "Treatment should always be carried out by a healthcare professional trained in compression therapy for leg ulcers."
-      ]
-    },
-    {
-      "tag": "vertigo",
-      "symptoms": [
-        "loss of balance which can make it difficult to stand or walk feeling sick or being sick dizziness"
-      ],
-      "treatment": [
-        "Medicines such as prochlorperazine and some antihistamines"
-      ]
-    },
-    {
-      "tag": " warts and verrucas",
-      "symptoms": [
-        "Warts are not usually painful but some types such as verrucas may hurt They can occasionally itch or bleed"
-      ],
-      "treatment": [
-        "Treatments include: salicylic acid, cryotherapy, chemical treatments"
-      ]
-    },
-    {
-      "tag": "whooping cough",
-      "symptoms": [
-        "runny nose red and watery eyes a sore throat and a slightly raised temperature."
-      ],
-      "treatment": [
-        "drink lots of fluids clean away mucus and sick from your or your child's mouth and take painkillers such as paracetamol or ibuprofen for a fever."
-      ]
-    },
-    {
-      "tag": "yellow fever",
-      "symptoms": [
-        " high temperature fever a headache nausea or vomiting muscle pain including backache loss of appetite"
-      ],
-      "treatment": [
-        "vaccination"
+        "There is no specific treatment for yellow fever.",
+        "Supportive care includes rest, hydration, and pain relievers.",
+        "Vaccination is available to prevent yellow fever.",
+        "Consult a healthcare professional for more information and guidance."
       ]
     }
   ]
