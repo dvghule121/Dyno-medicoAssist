@@ -254,7 +254,8 @@ class Dataset:
         symptoms = ''
         for i in intents['intents']:
             if i['tag'] == name:
-                symptoms = i['symptoms'][0]
+                for s in i['symptoms']:
+                    symptoms += s + ", "
                 break
         return symptoms
 
